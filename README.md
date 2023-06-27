@@ -49,7 +49,7 @@ To get started with this project, you'll need to clone the repository and have [
 Run the following command to clone the repository:  
 
 ```
-git clone https://github.com/ramonvc/gptfree-jailbreak-webui.git
+git clone https://github.com/john62821/Integrate-ChatGPT.git
 ```
 
 ### Install Dependencies :wrench: 
@@ -88,9 +88,6 @@ To enable it, just go to the `config.json` file and change the value of the "use
 ```
 "use_auto_proxy": true
 ```
-![use-auto-proxy-gif](https://github.com/ramonvc/gptfree-jailbreak-webui/assets/13617054/f83c6217-411c-404c-9f4c-8ae700a486d1)
-
-
 
 ## Docker 🐳
 ### Prerequisites
@@ -99,12 +96,12 @@ Before you start, make sure you have installed [Docker](https://www.docker.com/g
 ### Running the Docker
 Pull the Docker image from Docker Hub:
 ```
-docker pull ramonvc/freegpt-webui
+docker pull johnd62821/freegpt-webui
 ```
 
 Run the application using Docker:
 ```
-docker run -p 1338:1338 ramonvc/freegpt-webui
+docker run -p 1338:1338 johnd62821/freegpt-webui
 ```
 
 Access the application in your browser using the URL:
@@ -129,11 +126,6 @@ The application interface was incorporated from the [chatgpt-clone](https://gith
 
 ### API G4F
 The free GPT-4 API was incorporated from the [GPT4Free](https://github.com/xtekky/gpt4free) repository.
-
-<br>
-
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=ramonvc/freegpt-webui&type=Timeline)](https://star-history.com/#ramonvc/freegpt-webui&Timeline)
 
 <br>
 
